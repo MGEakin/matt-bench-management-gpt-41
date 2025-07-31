@@ -1,17 +1,45 @@
+<<<<<<< HEAD
 # Frontend - Employee Management Web App
 
 ## Setup
-
-1. Install dependencies:
-   ```sh
-   npm install
    ```
 2. Start the development server:
+=======
+# Employee Management Web Application
+
+## Structure
+- `frontend/`: Next.js (React, TypeScript, Tailwind CSS)
+- `backend/`: ExpressJS REST API (TypeScript, SQLite)
+- `database/`: SQLite schema and database file
+- `.github/copilot-instructions.md`: Workspace instructions
+
+## Setup
+
+### Database
+1. Create the database:
+   ```sh
+   sqlite3 database/employees.db < database/schema.sql
+   ```
+
+### Backend
+1. Install dependencies:
+   ```sh
+   cd backend
+   npm install
+   ```
+2. Start the backend server:
+   ```sh
+   npm run start:dev
+   ```
+
+### Frontend
+1. Install dependencies:
+   cd frontend
+   ```
+2. Start the frontend server:
    ```sh
    npm run dev
    ```
-
-## Features
 
 - Landing page displays a table of all employees with columns:
   - Name, Title, Studio, Practice, Region, Location, Skill Level, Current Assignment
@@ -57,3 +85,13 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+=======
+## Guidelines
+- Next.js development: see nextjs-tailwind-instructions.md
+- ExpressJS API: see expressjs-rest-apis.instructions.md
+
+## Features
+- Landing page: Table of all employees (Name, Title, Studio, Practice, Region, Location, Skill Level, Current Assignment)
+- REST API: CRUD for employees
+- SQLite database
+>>>>>>> 32cd788956688dee2b553deeb61d8af9b699475a
