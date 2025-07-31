@@ -1,0 +1,47 @@
+# Page snapshot
+
+```yaml
+- banner:
+  - navigation:
+    - text: Consultant Tracker
+    - list:
+      - listitem:
+        - link "Employee List":
+          - /url: /
+      - listitem:
+        - link "Studio List":
+          - /url: /studio-list
+      - listitem:
+        - link "Practice List":
+          - /url: /practice-list
+      - listitem:
+        - link "Region List":
+          - /url: /region-list
+      - listitem:
+        - link "Location List":
+          - /url: /location-list
+- 'heading "Practice: Development" [level=1]'
+- text: "Total Employees: 1"
+- table:
+  - rowgroup:
+    - row "Name Title Studio Region Location Skill Level Current Assignment":
+      - cell "Name"
+      - cell "Title"
+      - cell "Studio"
+      - cell "Region"
+      - cell "Location"
+      - cell "Skill Level"
+      - cell "Current Assignment"
+  - rowgroup:
+    - row "Consultant for Modern Software Development - Development Consultant Modern Software Development Global Remote Mid Assigned to Development":
+      - cell "Consultant for Modern Software Development - Development":
+        - link "Consultant for Modern Software Development - Development":
+          - /url: /employee/1
+      - cell "Consultant"
+      - cell "Modern Software Development"
+      - cell "Global"
+      - cell "Remote"
+      - cell "Mid"
+      - cell "Assigned to Development"
+- alert
+```
