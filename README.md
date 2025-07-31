@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-# Frontend - Employee Management Web App
-
-## Setup
-   ```
-2. Start the development server:
-=======
 # Employee Management Web Application
 
 ## Structure
@@ -94,4 +87,3 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 - Landing page: Table of all employees (Name, Title, Studio, Practice, Region, Location, Skill Level, Current Assignment)
 - REST API: CRUD for employees
 - SQLite database
->>>>>>> 32cd788956688dee2b553deeb61d8af9b699475a
