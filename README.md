@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Employee Management Web Application
 
 ## Structure
@@ -87,3 +88,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 - Landing page: Table of all employees (Name, Title, Studio, Practice, Region, Location, Skill Level, Current Assignment)
 - REST API: CRUD for employees
 - SQLite database
+=======
+# matt-bench-management-gpt-41
+>>>>>>> 127d71e138ef1c8faf60d3e8b5b1aef4e49c489a
