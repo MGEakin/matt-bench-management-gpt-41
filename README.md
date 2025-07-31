@@ -1,3 +1,26 @@
+# Frontend - Employee Management Web App
+
+## Setup
+
+1. Install dependencies:
+   ```sh
+   npm install
+   ```
+2. Start the development server:
+   ```sh
+   npm run dev
+   ```
+
+## Features
+
+- Landing page displays a table of all employees with columns:
+  - Name, Title, Studio, Practice, Region, Location, Skill Level, Current Assignment
+- Uses React, TypeScript, Tailwind CSS, and Next.js App Router
+
+## Guidelines
+
+- Follows nextjs-tailwind-instructions.md for UI and component development.
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
